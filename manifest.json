@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "yourLinks",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "YL-icon.png"
+    },
+    "permissions": ["tabs"],
+    "background.service_worker": {
+        "scripts": [
+          "background.js"
+        ]
+    }
+}
+  
+  
+  
+  
+
+
